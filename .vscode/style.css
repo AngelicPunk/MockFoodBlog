@@ -141,7 +141,7 @@ p.ingredients {
 }
 }
 
-@media only screen and (min-width: 300px) and (min-height: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (min-height: 400px) and (max-width: 800px) {
 	html {
 		font-family: Helvetica;
 		background-color: #d9a577;
@@ -184,6 +184,7 @@ p.ingredients {
 			opacity: 65%;
 			text-align: center;
 	   left: 0rem;
+			width: auto; 
 			}
 
 		figcaption {
@@ -200,7 +201,7 @@ p.ingredients {
 	   margin: 1rem 0rem;
 	   border-radius: 15px 14px;
      background-color: wheat;
-			width: 18rem;
+			width: auto;
 		padding: 1rem 0.5rem;.
 	}
 	
@@ -212,7 +213,6 @@ p.ingredients {
 	border-radius: 42px 36px;
   text-align: center;
 			  width: auto;
-		/*! padding: 1rem 1rem; */
 				}
 	
 	.ingredients {
@@ -220,47 +220,43 @@ p.ingredients {
   background-color: wheat;
   margin: 1rem 0.01rem;
   text-align: center;
-  width: 17rem;
+  width: auto;
   padding: 1rem 1rem;
   line-height: 1.3rem;
 }
 	
 p.ingredients {
-  width: 15rem;
+  width: auto;
   font-style: italic;
 }
 	
 .instructions {
   border-radius: 61px 50px;
   background-color: wheat;
-  width: 16rem;
+  width: 15rem;
   text-align: center;
   line-height: 1.5rem;
-	padding: 1rem;
+	padding: 1rem 4rem;
+  margin: 1rem;
 }
 	
 .list-one {
   grid-area: 2 / 1;
-  width: 12rem;
 }
 .list-two {
   grid-area: 3 / 1;
-  /*! margin: 0rem 5rem; */
-  /*! width: 28rem; */
   padding-bottom: 2rem;
 }
 	
 .process {
   grid-area: 1;
-	margin: 0rem 1rem;
+	margin: 0 3rem;
   text-align: center;
-  width: auto;
 }
 	
 			
 				.description, .recipe-details, .ingredients, .instructions {
 			  display: grid;
-			  /*grid-template-columns: 1fr 1fr; */
 			  grid-template-areas: .description, .recipe-details;
 			 
 				}
@@ -273,7 +269,7 @@ p.ingredients {
 		
 	   #img2 {
   /*! height: 15rem; */
-  width: 21rem;
+  width: 107%;
 	padding: 1rem 0rem; 
  /*! right: 1rem; */
 	margin: -1rem;
