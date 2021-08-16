@@ -157,7 +157,7 @@ p.ingredients {
 		background-image: url("https://assets.codepen.io/652/shania-pinnata-7E-vKgzahd8-unsplash.jpg");
 		background-position: 73% 37%;
 		background-size: 300%;
-		height: 31rem;
+		height: 38rem;
 		opacity: 60%;
 		width: fit-content;
 		position: relative;
@@ -165,12 +165,13 @@ p.ingredients {
 		}
 
 	.arrow {
+		display: none;
 			position: absolute;
 			top: 27rem;
 		right: 9rem;
 			scroll-behavior: smooth;
 			height: 3rem;
-		  z-index: 5;
+		  z-index: 0;
 		color: black;
 		}
 
@@ -237,7 +238,6 @@ p.ingredients {
   text-align: center;
   line-height: 1.5rem;
 	padding: 1rem 3rem;
-  margin: .4rem;
 }
 	
 .list-one {
@@ -274,11 +274,7 @@ p.ingredients {
  /*! right: 1rem; */
 	margin: -1rem;
 }
-.instructions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem 3rem;
-}
+
 			}
 		
 		}
