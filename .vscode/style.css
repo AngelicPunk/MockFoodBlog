@@ -234,10 +234,10 @@ p.ingredients {
 .instructions {
   border-radius: 61px 50px;
   background-color: wheat;
-  width: 15rem;
+  width: 17rem;
   text-align: center;
   line-height: 1.5rem;
-	padding: 1rem 3rem;
+	padding: 1rem 4rem;
 }
 	
 .list-one {
