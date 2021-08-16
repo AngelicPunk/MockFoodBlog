@@ -141,7 +141,7 @@ p.ingredients {
 }
 }
 
-@media only screen and (min-width: 300px) and (min-height: 400px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
 	html {
 		font-family: Helvetica;
 		background-color: #d9a577;
