@@ -159,7 +159,7 @@ p.ingredients {
 		background-size: 300%;
 		height: 38rem;
 		opacity: 60%;
-		width: auto;
+		width: inherit;
 		position: relative;
 		margin: -1rem -1rem;
 		}
@@ -185,7 +185,7 @@ p.ingredients {
 			opacity: 65%;
 			text-align: center;
 	   left: 0rem;
-			width: auto; 
+			width: -webkit-fill-available; 
 			}
 
 		figcaption {
