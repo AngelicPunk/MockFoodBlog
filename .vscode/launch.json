@@ -12,7 +12,7 @@
         "request": "launch",
         "reAttach": true,
         "name": "Launch index.html",
-        "file": "${workspaceFolder}/.vscode/index.html"
+        "file": "${workspaceFolder}/index.html"
     }
     ]
 }

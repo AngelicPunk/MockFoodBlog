@@ -40,7 +40,7 @@
 	top: 20rem;
 	color: black;
 	opacity: 90%;
-	margin: 0 10rem;
+	margin: 0 12rem;
 	}
 
 /* body */
@@ -234,10 +234,10 @@ p.ingredients {
 .instructions {
   border-radius: 61px 50px;
   background-color: wheat;
-  width: 17rem;
-  text-align: center;
-  line-height: 1.5rem;
-	padding: 1rem 4rem;
+  /*! width: 10rem; */
+  /*! text-align: center; */
+  line-height: 1.8rem;
+	padding: 2rem 1rem;
 }
 	
 .list-one {
