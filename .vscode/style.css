@@ -159,7 +159,7 @@ p.ingredients {
 		background-size: 300%;
 		height: 38rem;
 		opacity: 60%;
-		width: fit-content;
+		width: auto;
 		position: relative;
 		margin: -1rem -1rem;
 		}

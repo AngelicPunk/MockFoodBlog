@@ -1,11 +1,18 @@
 {
     "configurations": [
     {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "pwa-chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}/.vscode/index.html"
+    },
+    {
         "type": "firefox",
         "request": "launch",
         "reAttach": true,
         "name": "Launch index.html",
-        "file": "${workspaceFolder}/index.html"
+        "file": "${workspaceFolder}/.vscode/index.html"
     }
     ]
 }
