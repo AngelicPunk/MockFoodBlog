@@ -75,6 +75,9 @@
   margin: 2rem 3rem;
   text-align: center;
   width: 40rem;
+  position: relative;
+  top: 7rem;
+  font-size: 1.2rem;
 }
 p.ingredients {
   width: 34rem;
@@ -121,24 +124,50 @@ p.ingredients {
 	
 	#desc {
   font-style: italic;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: inline-block;
   text-align: center;
   font-size: 1.2rem;
   background: wheat;
   border-radius: 39px 42px;
-  width: 96rem;
+  width: auto;
+  position: relative;
+  top: 5rem;
+  
 }
 	
 #img2 {
   float: inline-end;
   height: auto;
   width: 50rem;
+  position: relative;
+  top: 11rem;
+  padding: 0 2rem;
+  border-radius: 5rem 5rem;
 }
+
 .instructions {
   grid-gap: 1rem 2rem;
   margin: 2rem auto;
+  position: relative;
+  top: 10rem;
+  padding: 2rem 4rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
+#instructions {
+	position: relative;
+	top: 7rem;
+	font-size: 1.2rem;
+	}
+
+	footer {
+		position: relative;
+		top: 15rem;
+		text-align: center;
+		color: brown;
+		filter: opacity(64%);
+		}
 }
 
 @media only screen and (min-width: 300px) and (max-width: 800px) {
@@ -203,7 +232,10 @@ p.ingredients {
 	   border-radius: 15px 14px;
      background-color: wheat;
 			width: auto;
-		padding: 1rem 0.5rem;.
+		padding: 2rem 1.5rem;
+		font-size: 1.2rem;
+		top: 3rem;
+		position: relative;
 	}
 	
 	.recipe-details { 
@@ -214,6 +246,8 @@ p.ingredients {
 	border-radius: 42px 36px;
   text-align: center;
 			  width: auto;
+			  position: relative;
+			  top: 10rem;
 				}
 	
 	.ingredients {
@@ -255,26 +289,33 @@ p.ingredients {
 }
 	
 			
-				.description, .recipe-details, .ingredients, .instructions {
-			  display: grid;
-			  grid-template-areas: .description, .recipe-details;
-			 
-				}
+.description, .recipe-details, .ingredients, .instructions {
+  display: grid;
+  grid-template-areas: .description, .recipe-details;
+		 
+	}
 			
-				figure {
-			  padding-left: 15em;
-			  float: right;
-			  grid-gap: 5em;
-				}
+figure {
+  padding-left: 15em;
+  float: right;
+  grid-gap: 5em;
+	}
 		
-	   #img2 {
+   #img2 {
   /*! height: 15rem; */
   width: 107%;
-	padding: 1rem 0rem; 
+padding: 1rem 0rem; 
  /*! right: 1rem; */
-	margin: -1rem;
+margin: -1rem;
+position: relative;
+top: 5rem;
 }
-
+footer {
+	position: relative;
+	top: 5rem;
+	color: brown;
+	filter: opacity(57%);
+	text-align: center;
+	}
 			}
-		
-		}
+
